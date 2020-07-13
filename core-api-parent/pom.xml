@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>sda</groupId>
+		<artifactId>sa1d</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	<artifactId>core-api-parent</artifactId>
+	<packaging>pom</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.cognizant.cosmos.spring</groupId>
+			<artifactId>util-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.cognizant.cosmos.spring</groupId>
+			<artifactId>lib-discovery-kubernetes</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.cognizant.cosmos.spring</groupId>
+			<artifactId>lib-properties-spring-cloud</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.cognizant.cosmos.spring</groupId>
+			<artifactId>lib-tracing-zipkin</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+		</dependency>
+	</dependencies>
+
+</project>
