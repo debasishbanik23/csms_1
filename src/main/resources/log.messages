@@ -1,0 +1,4 @@
+dd-api.log.message.key.1 = Received request for getAccounts
+dd-api.log.message.key.4 = Received request for getAccount
+dd-api.log.message.key.2 = Data retrieved
+dd-api.log.message.key.3 = Failed to fetch record
