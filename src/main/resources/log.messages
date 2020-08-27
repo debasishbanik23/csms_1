@@ -1,0 +1,4 @@
+deba-api.log.message.key.1 = Received request for getAccounts
+deba-api.log.message.key.4 = Received request for getAccount
+deba-api.log.message.key.2 = Data retrieved
+deba-api.log.message.key.3 = Failed to fetch record
